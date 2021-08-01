@@ -1,5 +1,5 @@
 {
-	"npmScope": "nativescript",
+	"npmScope": "comporell",
 	"affected": {
 		"defaultBase": "master"
 	},
@@ -14,13 +14,16 @@
 		"nx.json": "*"
 	},
 	"projects": {
+		"all": {
+			"tags": []
+		},
 		"demo": {
 			"tags": []
 		},
 		"demo-angular": {
 			"tags": []
 		},
-		"all": {
+		"nativescript-mht-printer": {
 			"tags": []
 		}
 	},
