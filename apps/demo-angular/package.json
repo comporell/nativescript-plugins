@@ -1,11 +1,13 @@
 {
-	"main": "./src/main.ts",
-	"dependencies": {
-		"@nativescript/core": "file:../../node_modules/@nativescript/core",
-		"@comporell/nativescript-mht-printer": "file:../../dist/packages/nativescript-mht-printer"
-	},
-	"devDependencies": {
-		"@nativescript/android": "8.0.0",
-		"@nativescript/ios": "8.0.0"
-	}
+  "main": "./src/main.ts",
+  "dependencies": {
+    "@nativescript/core": "file:../../node_modules/@nativescript/core",
+    "@comporell/nativescript-sms-receiver": "file:../../dist/packages/nativescript-sms-receiver",
+    "@comporell/nativescript-accordion": "file:../../dist/packages/nativescript-accordion",
+    "@comporell/nativescript-mht-printer": "file:../../dist/packages/nativescript-mht-printer"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.3.0",
+    "@nativescript/ios": "~8.3.0"
+  }
 }

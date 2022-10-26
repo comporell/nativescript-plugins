@@ -3,8 +3,8 @@ import { NativeScriptCommonModule, NativeScriptRouterModule } from '@nativescrip
 import { NativescriptMhtPrinterComponent } from './nativescript-mht-printer.component';
 
 @NgModule({
-	imports: [NativeScriptCommonModule, NativeScriptRouterModule.forChild([{ path: '', component: NativescriptMhtPrinterComponent }])],
-	declarations: [NativescriptMhtPrinterComponent],
-	schemas: [NO_ERRORS_SCHEMA]
+  imports: [NativeScriptCommonModule, NativeScriptRouterModule.forChild([{ path: '', component: NativescriptMhtPrinterComponent }])],
+  declarations: [NativescriptMhtPrinterComponent],
+  schemas: [NO_ERRORS_SCHEMA],
 })
 export class NativescriptMhtPrinterModule {}

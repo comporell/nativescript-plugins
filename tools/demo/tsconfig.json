@@ -1,9 +1,10 @@
 {
-	"extends": "../../tsconfig.base.json",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@comporell/*": ["../../packages/*"]
-		}
-	}
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@nativescript-accordion/*": ["../../packages/*"],
+      "@comporell/*": ["../../packages/*"]
+    }
+  }
 }

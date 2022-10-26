@@ -1,35 +1,35 @@
 {
-	"name": "@comporell/nativescript-mht-printer",
-	"version": "1.2.1",
-	"description": "Nativescript MeiHengTong MHT Bluetooth Label Printer Plugin",
-	"main": "mht-printer",
-	"typings": "index.d.ts",
-	"nativescript": {
-		"platforms": {
-			"ios": "7.0.0",
-			"android": "7.0.0"
-		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/comporell/nativescript-mht-printer.git"
-	},
-	"keywords": [
-		"NativeScript",
-		"JavaScript",
-		"TypeScript",
-		"iOS",
-		"Android"
-	],
-	"author": {
-		"name": "Trevize Daneel",
-		"email": "comporell@gmail.com"
-	},
-	"bugs": {
-		"url": "https://github.com/comporell/nativescript-mht-printer/issues"
-	},
-	"license": "Apache-2.0",
-	"homepage": "https://github.com/comporell/nativescript-mht-printer",
-	"readmeFilename": "README.md",
-	"bootstrapper": "@nativescript/plugin-seed"
+  "name": "@comporell/nativescript-mht-printer",
+  "version": "1.2.5",
+  "description": "Nativescript MeiHengTong MHT Bluetooth Label Printer Plugin",
+  "main": "mht-printer",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "ios": "7.0.0",
+      "android": "7.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comporell/nativescript-plugins.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "iOS",
+    "Android"
+  ],
+  "author": {
+    "name": "Trevize Daneel",
+    "email": "comporell@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/comporell/nativescript-plugins/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/comporell/nativescript-plugins",
+  "readmeFilename": "README.md",
+  "bootstrapper": "@nativescript/plugin-seed"
 }

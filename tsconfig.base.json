@@ -1,28 +1,33 @@
 {
-	"compilerOptions": {
-		"rootDir": ".",
-		"sourceMap": true,
-		"declaration": true,
-		"moduleResolution": "node",
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"noEmitHelpers": true,
-		"target": "es2017",
-		"module": "esnext",
-		"lib": ["es2017", "dom"],
-		"skipLibCheck": true,
-		"skipDefaultLibCheck": true,
-		"baseUrl": ".",
-		"plugins": [
-			{
-				"transform": "@nativescript/webpack/dist/transformers/NativeClass",
-				"type": "raw"
-			}
-		],
-		"paths": {
-			"@comporell/*": ["packages/*"],
-			"@demo/shared": ["tools/demo/index.ts"]
-		}
-	},
-	"exclude": ["node_modules", "tmp"]
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "transform": "@nativescript/webpack/dist/transformers/NativeClass",
+        "type": "raw"
+      }
+    ],
+    "paths": {
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@nativescript-accordion/*": ["packages/*"],
+      "@comporell/*": ["packages/*"],
+      "@comporell/nativescript-mht-printer": ["packages/nativescript-mht-printer/index.d.ts"],
+      "@comporell/nativescript-accordion": ["packages/nativescript-accordion/index.d.ts"],
+      "@comporell/nativescript-accordion/angular": ["packages/nativescript-accordion/angular/index.ts"],
+      "@comporell/nativescript-sms-receiver": ["packages/nativescript-sms-receiver/index.d.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
 }
